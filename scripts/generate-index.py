@@ -7,17 +7,9 @@ import re
 ROOT = Path(__file__).resolve().parent.parent
 SVG_DIRS = (
     ROOT / "symbols" / "componentes",
-    ROOT / "icons",
     ROOT / "illustrations",
 )
 OUTPUT = ROOT / "index.html"
-
-NAMES = {
-    "icon-bolt.svg": "Icono rayo de la app",
-    "icon-rebt.svg": "Icono REBT de la app",
-    "placeholder-logo.svg": "Logo placeholder de la app",
-    "placeholder.svg": "Imagen placeholder de la app",
-}
 
 TEMPLATE = r'''<!doctype html>
 <html lang="es">
@@ -192,7 +184,7 @@ def main():
     rows = []
     for path in files:
         ident = path.stem
-        title = NAMES.get(path.name) or title_of(path)
+        title = title_of(path)
         rel = path.relative_to(ROOT).as_posix()
         search = html.escape(f"{title} {path.name} {ident} {rel}".lower(), quote=True)
         rows.append(

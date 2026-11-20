@@ -22,7 +22,6 @@ Cuando esta librería esté madura, el plan es convertirla en la fuente única d
 
 Hasta ese momento, **no borrar la copia de REA-ing-inversa**.
 
-Los 4 archivos de `icons/` son una copia de `REBT-CALC/electro-calculos/public/` y `conversion-de-planilla-a-web/public/`. Estaban duplicados en ambas apps; acá se consolidaron en `icon-bolt.svg`, `icon-rebt.svg`, `placeholder-logo.svg` y `placeholder.svg`. Los dos últimos son plantillas de Next.js, no símbolos eléctricos. La app sigue usando sus originales (los referencia en `app/layout.tsx`).
 
 ## Estructura
 
@@ -35,7 +34,7 @@ electro-svgs/
 │   └── generate-index.py  # regenera index.html desde los SVG
 ├── symbols/
 │   └── componentes/   # 227 símbolos CADe_SIMU con nombre numérico
-├── icons/             # iconos de la app REBT-CALC (4 archivos)
+├── icons/             # iconos para interfaces y paneles (vacío)
 ├── illustrations/     # diagramas para documentación (vacío)
 └── catalog.json       # inventario: id, nombre, categoría, ruta y tags (pendiente)
 ```
