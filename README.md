@@ -8,15 +8,31 @@ Centralizar los SVG eléctricos que hoy están repartidos entre proyectos (simul
 
 Esto **no** es un editor ni un simulador: solo contiene los recursos gráficos y su inventario.
 
+## Origen y estado actual
+
+Los 227 archivos de `symbols/componentes/` son una **copia** de `REA-ing-inversa/docs/img/componentes/`. Por ahora conviven en ambos repositorios: REA-ing-inversa sigue usando su original (hay referencias en `app/scripts/make-component-docs.ts` y `docs/componentes.md`), así que no se rompe nada. Esta duplicación es intencional y temporal.
+
+### Migración futura
+
+Cuando esta librería esté madura, el plan es convertirla en la fuente única de verdad:
+
+1. Versionar este repo y decidir cómo lo consume REA-ing-inversa (submodule, subtree o paquete publicado).
+2. Actualizar las referencias en REA-ing-inversa para que apunten a este repo.
+3. Recién entonces borrar `docs/img/componentes/` de REA-ing-inversa y consolidar todo acá.
+
+Hasta ese momento, **no borrar la copia de REA-ing-inversa**.
+
 ## Estructura
 
 ```
 electro-svgs/
 ├── README.md
-├── symbols/        # símbolos esquemáticos (resistencias, contactores, motores, etc.)
-├── icons/          # iconos para interfaces y paneles
-├── illustrations/  # diagramas y figuras para documentación
-└── catalog.json    # inventario: id, nombre, categoría, ruta y palabras clave
+├── LICENSE
+├── symbols/
+│   └── componentes/   # 227 símbolos CADe_SIMU con nombre numérico
+├── icons/             # iconos para interfaces y paneles (vacío)
+├── illustrations/     # diagramas para documentación (vacío)
+└── catalog.json       # inventario: id, nombre, categoría, ruta y tags (pendiente)
 ```
 
 Los archivos se agrupan por categoría dentro de cada carpeta. Si un símbolo procede de una librería externa (por ejemplo, los códigos numéricos de CADe_SIMU), se conserva su identificador original como nombre de archivo (`1000.svg`, `1050.svg`, …) y se documenta su equivalente legible en `catalog.json`.
