@@ -28,11 +28,22 @@ Hasta ese momento, **no borrar la copia de REA-ing-inversa**.
 electro-svgs/
 ├── README.md
 ├── LICENSE
+├── index.html         # catálogo visual: tabla con todos los SVG
+├── scripts/
+│   └── generate-index.py  # regenera index.html desde los SVG
 ├── symbols/
 │   └── componentes/   # 227 símbolos CADe_SIMU con nombre numérico
 ├── icons/             # iconos para interfaces y paneles (vacío)
 ├── illustrations/     # diagramas para documentación (vacío)
 └── catalog.json       # inventario: id, nombre, categoría, ruta y tags (pendiente)
+```
+
+Abrí [`index.html`](index.html) para ver la tabla con el nombre, el código y una vista previa de cada símbolo. Incluye un buscador por nombre, código o archivo; funciona sin dependencias ni servidor.
+
+Después de agregar o quitar SVG, regenerá la tabla con:
+
+```sh
+python3 scripts/generate-index.py
 ```
 
 Los archivos se agrupan por categoría dentro de cada carpeta. Si un símbolo procede de una librería externa (por ejemplo, los códigos numéricos de CADe_SIMU), se conserva su identificador original como nombre de archivo (`1000.svg`, `1050.svg`, …) y se documenta su equivalente legible en `catalog.json`.
