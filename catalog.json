@@ -1,0 +1,2933 @@
+{
+  "source": "componentes.md",
+  "entries": [
+    {
+      "code": 1000,
+      "name": "Motor trifásico",
+      "designator": "-M",
+      "category": "motor",
+      "category_label": "Motores",
+      "pins": [
+        "U1",
+        "V1",
+        "W1",
+        "PE"
+      ],
+      "file": "symbols/componentes/1000.svg"
+    },
+    {
+      "code": 1001,
+      "name": "Motor trifásico YD",
+      "designator": "-M",
+      "category": "motor",
+      "category_label": "Motores",
+      "pins": [
+        "U1",
+        "V1",
+        "W1",
+        "U2",
+        "V2",
+        "W2"
+      ],
+      "file": "symbols/componentes/1001.svg"
+    },
+    {
+      "code": 1002,
+      "name": "Motor monofásico",
+      "designator": "-M",
+      "category": "motor",
+      "category_label": "Motores",
+      "pins": [
+        "U1",
+        "U2"
+      ],
+      "file": "symbols/componentes/1002.svg"
+    },
+    {
+      "code": 1003,
+      "name": "Motor Dahlander",
+      "designator": "-M",
+      "category": "motor",
+      "category_label": "Motores",
+      "pins": [
+        "U1",
+        "V1",
+        "W1",
+        "U2",
+        "V2",
+        "W2"
+      ],
+      "file": "symbols/componentes/1003.svg"
+    },
+    {
+      "code": 1004,
+      "name": "Motor rotor bobinado",
+      "designator": "-M",
+      "category": "motor",
+      "category_label": "Motores",
+      "pins": [
+        "U1",
+        "V1",
+        "W1",
+        "K",
+        "L",
+        "M"
+      ],
+      "file": "symbols/componentes/1004.svg"
+    },
+    {
+      "code": 1005,
+      "name": "Motor dos velocidades",
+      "designator": "-M",
+      "category": "motor",
+      "category_label": "Motores",
+      "pins": [
+        "U1",
+        "V1",
+        "W1",
+        "U2",
+        "V2",
+        "W2"
+      ],
+      "file": "symbols/componentes/1005.svg"
+    },
+    {
+      "code": 1006,
+      "name": "Motor cc. iman permanente",
+      "designator": "-M",
+      "category": "motor",
+      "category_label": "Motores",
+      "pins": [
+        "A1",
+        "A2"
+      ],
+      "file": "symbols/componentes/1006.svg"
+    },
+    {
+      "code": 1007,
+      "name": "Motor cc. ex. indepen.",
+      "designator": "-M",
+      "category": "motor",
+      "category_label": "Motores",
+      "pins": [
+        "A1",
+        "A2",
+        "E1",
+        "E2"
+      ],
+      "file": "symbols/componentes/1007.svg"
+    },
+    {
+      "code": 1010,
+      "name": "Motor trifásico como monofásico",
+      "designator": "-M",
+      "category": "motor",
+      "category_label": "Motores",
+      "pins": [
+        "L",
+        "N"
+      ],
+      "file": "symbols/componentes/1010.svg"
+    },
+    {
+      "code": 1050,
+      "name": "Resistencia I",
+      "designator": "-R",
+      "category": "potencia",
+      "category_label": "Potencia",
+      "pins": [
+        "1",
+        "2"
+      ],
+      "file": "symbols/componentes/1050.svg"
+    },
+    {
+      "code": 1051,
+      "name": "Resistencia III",
+      "designator": "-R",
+      "category": "potencia",
+      "category_label": "Potencia",
+      "pins": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "file": "symbols/componentes/1051.svg"
+    },
+    {
+      "code": 1052,
+      "name": "Autotransformador III",
+      "designator": "-T",
+      "category": "potencia",
+      "category_label": "Potencia",
+      "pins": [
+        "U1",
+        "V1",
+        "W1",
+        "U2",
+        "V2",
+        "W2"
+      ],
+      "file": "symbols/componentes/1052.svg"
+    },
+    {
+      "code": 1053,
+      "name": "Arrancador electrónico",
+      "designator": "-G",
+      "category": "potencia",
+      "category_label": "Potencia",
+      "pins": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "file": "symbols/componentes/1053.svg"
+    },
+    {
+      "code": 1054,
+      "name": "Variador velocidad ca II.",
+      "designator": "-G",
+      "category": "potencia",
+      "category_label": "Potencia",
+      "pins": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "file": "symbols/componentes/1054.svg"
+    },
+    {
+      "code": 1055,
+      "name": "Variador velocidad ca III.",
+      "designator": "-G",
+      "category": "potencia",
+      "category_label": "Potencia",
+      "pins": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "file": "symbols/componentes/1055.svg"
+    },
+    {
+      "code": 1057,
+      "name": "Variador velocidad cc.",
+      "designator": "-G",
+      "category": "potencia",
+      "category_label": "Potencia",
+      "pins": [
+        "L+",
+        "L-",
+        "M+",
+        "M-"
+      ],
+      "file": "symbols/componentes/1057.svg"
+    },
+    {
+      "code": 1058,
+      "name": "Variador velocidad cc.",
+      "designator": "-G",
+      "category": "potencia",
+      "category_label": "Potencia",
+      "pins": [
+        "L+",
+        "L-",
+        "M+",
+        "M-"
+      ],
+      "file": "symbols/componentes/1058.svg"
+    },
+    {
+      "code": 1076,
+      "name": "Relé 1 canal",
+      "designator": "-K",
+      "category": "potencia",
+      "category_label": "Potencia",
+      "pins": [
+        "A1",
+        "A2",
+        "11",
+        "14"
+      ],
+      "file": "symbols/componentes/1076.svg"
+    },
+    {
+      "code": 2000,
+      "name": "Contactor II",
+      "designator": "-KM",
+      "category": "potencia",
+      "category_label": "Potencia",
+      "pins": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "file": "symbols/componentes/2000.svg"
+    },
+    {
+      "code": 2001,
+      "name": "Contactor III",
+      "designator": "-KM",
+      "category": "potencia",
+      "category_label": "Potencia",
+      "pins": [
+        "1",
+        "3",
+        "5",
+        "2",
+        "4",
+        "6"
+      ],
+      "file": "symbols/componentes/2001.svg"
+    },
+    {
+      "code": 2003,
+      "name": "Interruptor II",
+      "designator": "-S",
+      "category": "potencia",
+      "category_label": "Potencia",
+      "pins": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "file": "symbols/componentes/2003.svg"
+    },
+    {
+      "code": 2004,
+      "name": "Interruptor III",
+      "designator": "-S",
+      "category": "potencia",
+      "category_label": "Potencia",
+      "pins": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "file": "symbols/componentes/2004.svg"
+    },
+    {
+      "code": 2006,
+      "name": "Contactor I",
+      "designator": "-KM",
+      "category": "potencia",
+      "category_label": "Potencia",
+      "pins": [
+        "1",
+        "2"
+      ],
+      "file": "symbols/componentes/2006.svg"
+    },
+    {
+      "code": 2007,
+      "name": "Interruptor I",
+      "designator": "-S",
+      "category": "potencia",
+      "category_label": "Potencia",
+      "pins": [
+        "1",
+        "2"
+      ],
+      "file": "symbols/componentes/2007.svg"
+    },
+    {
+      "code": 3000,
+      "name": "Alimentación L",
+      "designator": "",
+      "category": "alimentacion",
+      "category_label": "Alimentación",
+      "pins": [
+        "—"
+      ],
+      "file": "symbols/componentes/3000.svg"
+    },
+    {
+      "code": 3001,
+      "name": "Alimentación N",
+      "designator": "",
+      "category": "alimentacion",
+      "category_label": "Alimentación",
+      "pins": [
+        "—"
+      ],
+      "file": "symbols/componentes/3001.svg"
+    },
+    {
+      "code": 3002,
+      "name": "Alimentación PE",
+      "designator": "",
+      "category": "alimentacion",
+      "category_label": "Alimentación",
+      "pins": [
+        "PE"
+      ],
+      "file": "symbols/componentes/3002.svg"
+    },
+    {
+      "code": 3003,
+      "name": "Alimentación L N",
+      "designator": "",
+      "category": "alimentacion",
+      "category_label": "Alimentación",
+      "pins": [
+        "—"
+      ],
+      "file": "symbols/componentes/3003.svg"
+    },
+    {
+      "code": 3004,
+      "name": "Alimentación L1 L2 L3",
+      "designator": "",
+      "category": "alimentacion",
+      "category_label": "Alimentación",
+      "pins": [
+        "L1",
+        "L2",
+        "L3"
+      ],
+      "file": "symbols/componentes/3004.svg"
+    },
+    {
+      "code": 3005,
+      "name": "Alimentación L1 L2 L3 PE",
+      "designator": "",
+      "category": "alimentacion",
+      "category_label": "Alimentación",
+      "pins": [
+        "—"
+      ],
+      "file": "symbols/componentes/3005.svg"
+    },
+    {
+      "code": 3006,
+      "name": "Alimentación L1 L2 L3 N",
+      "designator": "",
+      "category": "alimentacion",
+      "category_label": "Alimentación",
+      "pins": [
+        "L1",
+        "L2",
+        "L3",
+        "N"
+      ],
+      "file": "symbols/componentes/3006.svg"
+    },
+    {
+      "code": 3007,
+      "name": "Alimentación L1 L2 L3 N PE",
+      "designator": "",
+      "category": "alimentacion",
+      "category_label": "Alimentación",
+      "pins": [
+        "L1",
+        "L2",
+        "L3",
+        "N",
+        "PE"
+      ],
+      "file": "symbols/componentes/3007.svg"
+    },
+    {
+      "code": 3008,
+      "name": "Alimentación +",
+      "designator": "",
+      "category": "alimentacion",
+      "category_label": "Alimentación",
+      "pins": [
+        "+"
+      ],
+      "file": "symbols/componentes/3008.svg"
+    },
+    {
+      "code": 3009,
+      "name": "Alimentación -",
+      "designator": "",
+      "category": "alimentacion",
+      "category_label": "Alimentación",
+      "pins": [
+        "—"
+      ],
+      "file": "symbols/componentes/3009.svg"
+    },
+    {
+      "code": 3010,
+      "name": "Alimentación + -",
+      "designator": "",
+      "category": "alimentacion",
+      "category_label": "Alimentación",
+      "pins": [
+        "+",
+        "-"
+      ],
+      "file": "symbols/componentes/3010.svg"
+    },
+    {
+      "code": 3011,
+      "name": "Alimentación L N PE",
+      "designator": "",
+      "category": "alimentacion",
+      "category_label": "Alimentación",
+      "pins": [
+        "—"
+      ],
+      "file": "symbols/componentes/3011.svg"
+    },
+    {
+      "code": 3012,
+      "name": "Transformador",
+      "designator": "-T",
+      "category": "alimentacion",
+      "category_label": "Alimentación",
+      "pins": [
+        "U1",
+        "V1",
+        "W1",
+        "U2",
+        "V2",
+        "W2"
+      ],
+      "file": "symbols/componentes/3012.svg"
+    },
+    {
+      "code": 3013,
+      "name": "Rectificador",
+      "designator": "-V",
+      "category": "alimentacion",
+      "category_label": "Alimentación",
+      "pins": [
+        "~",
+        "~",
+        "+",
+        "-"
+      ],
+      "file": "symbols/componentes/3013.svg"
+    },
+    {
+      "code": 3014,
+      "name": "Fuente de alimentacióm",
+      "designator": "-V",
+      "category": "alimentacion",
+      "category_label": "Alimentación",
+      "pins": [
+        "L",
+        "N",
+        "+",
+        "-"
+      ],
+      "file": "symbols/componentes/3014.svg"
+    },
+    {
+      "code": 4000,
+      "name": "Cable fase",
+      "designator": "",
+      "category": "linea",
+      "category_label": "Líneas y cables",
+      "pins": [
+        "—"
+      ],
+      "file": "symbols/componentes/4000.svg"
+    },
+    {
+      "code": 4009,
+      "name": "Cable neutro",
+      "designator": "",
+      "category": "linea",
+      "category_label": "Líneas y cables",
+      "pins": [
+        "—"
+      ],
+      "file": "symbols/componentes/4009.svg"
+    },
+    {
+      "code": 4010,
+      "name": "Cable PE",
+      "designator": "",
+      "category": "linea",
+      "category_label": "Líneas y cables",
+      "pins": [
+        "—"
+      ],
+      "file": "symbols/componentes/4010.svg"
+    },
+    {
+      "code": 4011,
+      "name": "Regleta cuadrada",
+      "designator": "-X",
+      "category": "borne",
+      "category_label": "Borneras",
+      "pins": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "file": "symbols/componentes/4011.svg"
+    },
+    {
+      "code": 4012,
+      "name": "Regleta redonda",
+      "designator": "",
+      "category": "borne",
+      "category_label": "Borneras",
+      "pins": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "file": "symbols/componentes/4012.svg"
+    },
+    {
+      "code": 4013,
+      "name": "Conector salida",
+      "designator": "",
+      "category": "borne",
+      "category_label": "Borneras",
+      "pins": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "file": "symbols/componentes/4013.svg"
+    },
+    {
+      "code": 4014,
+      "name": "Conector entrada",
+      "designator": "",
+      "category": "borne",
+      "category_label": "Borneras",
+      "pins": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "file": "symbols/componentes/4014.svg"
+    },
+    {
+      "code": 4015,
+      "name": "Regleta redonda 2",
+      "designator": "",
+      "category": "borne",
+      "category_label": "Borneras",
+      "pins": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "file": "symbols/componentes/4015.svg"
+    },
+    {
+      "code": 4016,
+      "name": "Regleta redonda 3",
+      "designator": "",
+      "category": "borne",
+      "category_label": "Borneras",
+      "pins": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "file": "symbols/componentes/4016.svg"
+    },
+    {
+      "code": 4019,
+      "name": "Cable -",
+      "designator": "",
+      "category": "linea",
+      "category_label": "Líneas y cables",
+      "pins": [
+        "—"
+      ],
+      "file": "symbols/componentes/4019.svg"
+    },
+    {
+      "code": 5000,
+      "name": "Fusible I",
+      "designator": "-F",
+      "category": "proteccion",
+      "category_label": "Protección",
+      "pins": [
+        "1",
+        "2"
+      ],
+      "file": "symbols/componentes/5000.svg"
+    },
+    {
+      "code": 5001,
+      "name": "Fusible IN",
+      "designator": "-F",
+      "category": "proteccion",
+      "category_label": "Protección",
+      "pins": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "file": "symbols/componentes/5001.svg"
+    },
+    {
+      "code": 5002,
+      "name": "Fusible II",
+      "designator": "-F",
+      "category": "proteccion",
+      "category_label": "Protección",
+      "pins": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "file": "symbols/componentes/5002.svg"
+    },
+    {
+      "code": 5003,
+      "name": "Fusible III",
+      "designator": "-F",
+      "category": "proteccion",
+      "category_label": "Protección",
+      "pins": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "file": "symbols/componentes/5003.svg"
+    },
+    {
+      "code": 5005,
+      "name": "Seccionador I",
+      "designator": "-F",
+      "category": "proteccion",
+      "category_label": "Protección",
+      "pins": [
+        "1",
+        "2"
+      ],
+      "file": "symbols/componentes/5005.svg"
+    },
+    {
+      "code": 5006,
+      "name": "Seccionador IN",
+      "designator": "-F",
+      "category": "proteccion",
+      "category_label": "Protección",
+      "pins": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "file": "symbols/componentes/5006.svg"
+    },
+    {
+      "code": 5007,
+      "name": "Seccionador II",
+      "designator": "-F",
+      "category": "proteccion",
+      "category_label": "Protección",
+      "pins": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "file": "symbols/componentes/5007.svg"
+    },
+    {
+      "code": 5008,
+      "name": "Seccionador III",
+      "designator": "-F",
+      "category": "proteccion",
+      "category_label": "Protección",
+      "pins": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "file": "symbols/componentes/5008.svg"
+    },
+    {
+      "code": 6000,
+      "name": "Automático I",
+      "designator": "-F",
+      "category": "proteccion",
+      "category_label": "Protección",
+      "pins": [
+        "1",
+        "2"
+      ],
+      "file": "symbols/componentes/6000.svg"
+    },
+    {
+      "code": 6001,
+      "name": "Automático IN",
+      "designator": "-F",
+      "category": "proteccion",
+      "category_label": "Protección",
+      "pins": [
+        "1",
+        "3",
+        "2",
+        "4"
+      ],
+      "file": "symbols/componentes/6001.svg"
+    },
+    {
+      "code": 6002,
+      "name": "Automático II",
+      "designator": "-F",
+      "category": "proteccion",
+      "category_label": "Protección",
+      "pins": [
+        "1",
+        "3",
+        "2",
+        "4"
+      ],
+      "file": "symbols/componentes/6002.svg"
+    },
+    {
+      "code": 6003,
+      "name": "Automático III",
+      "designator": "-F",
+      "category": "proteccion",
+      "category_label": "Protección",
+      "pins": [
+        "1",
+        "3",
+        "5",
+        "2",
+        "4",
+        "6"
+      ],
+      "file": "symbols/componentes/6003.svg"
+    },
+    {
+      "code": 6004,
+      "name": "Automático IIIN",
+      "designator": "-F",
+      "category": "proteccion",
+      "category_label": "Protección",
+      "pins": [
+        "1",
+        "3",
+        "5",
+        "2",
+        "4",
+        "6"
+      ],
+      "file": "symbols/componentes/6004.svg"
+    },
+    {
+      "code": 6005,
+      "name": "Diferencial IN",
+      "designator": "-F",
+      "category": "proteccion",
+      "category_label": "Protección",
+      "pins": [
+        "1",
+        "3",
+        "2",
+        "4"
+      ],
+      "file": "symbols/componentes/6005.svg"
+    },
+    {
+      "code": 6006,
+      "name": "Diferencial IIIN",
+      "designator": "-F",
+      "category": "proteccion",
+      "category_label": "Protección",
+      "pins": [
+        "1",
+        "3",
+        "5",
+        "2",
+        "4",
+        "6"
+      ],
+      "file": "symbols/componentes/6006.svg"
+    },
+    {
+      "code": 6007,
+      "name": "Relé térmico",
+      "designator": "-F",
+      "category": "proteccion",
+      "category_label": "Protección",
+      "pins": [
+        "1",
+        "3",
+        "5",
+        "2",
+        "4",
+        "6"
+      ],
+      "file": "symbols/componentes/6007.svg"
+    },
+    {
+      "code": 6008,
+      "name": "Disyuntor II",
+      "designator": "-Q",
+      "category": "proteccion",
+      "category_label": "Protección",
+      "pins": [
+        "1",
+        "3",
+        "2",
+        "4"
+      ],
+      "file": "symbols/componentes/6008.svg"
+    },
+    {
+      "code": 6009,
+      "name": "Disyuntor III",
+      "designator": "-Q",
+      "category": "proteccion",
+      "category_label": "Protección",
+      "pins": [
+        "1",
+        "3",
+        "5",
+        "2",
+        "4",
+        "6"
+      ],
+      "file": "symbols/componentes/6009.svg"
+    },
+    {
+      "code": 6010,
+      "name": "Disyuntor I",
+      "designator": "-Q",
+      "category": "proteccion",
+      "category_label": "Protección",
+      "pins": [
+        "1",
+        "2"
+      ],
+      "file": "symbols/componentes/6010.svg"
+    },
+    {
+      "code": 6015,
+      "name": "Contactor",
+      "designator": "-Q",
+      "category": "proteccion",
+      "category_label": "Protección",
+      "pins": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "file": "symbols/componentes/6015.svg"
+    },
+    {
+      "code": 6016,
+      "name": "Relé térmico",
+      "designator": "-F",
+      "category": "proteccion",
+      "category_label": "Protección",
+      "pins": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "file": "symbols/componentes/6016.svg"
+    },
+    {
+      "code": 6017,
+      "name": "Interruptor automático",
+      "designator": "-F",
+      "category": "proteccion",
+      "category_label": "Protección",
+      "pins": [
+        "1",
+        "2"
+      ],
+      "file": "symbols/componentes/6017.svg"
+    },
+    {
+      "code": 6018,
+      "name": "Interruptor diferencial",
+      "designator": "-F",
+      "category": "proteccion",
+      "category_label": "Protección",
+      "pins": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "file": "symbols/componentes/6018.svg"
+    },
+    {
+      "code": 6019,
+      "name": "Interruptor",
+      "designator": "-S",
+      "category": "proteccion",
+      "category_label": "Protección",
+      "pins": [
+        "1",
+        "2"
+      ],
+      "file": "symbols/componentes/6019.svg"
+    },
+    {
+      "code": 6020,
+      "name": "Interruptor",
+      "designator": "-S",
+      "category": "proteccion",
+      "category_label": "Protección",
+      "pins": [
+        "1",
+        "2"
+      ],
+      "file": "symbols/componentes/6020.svg"
+    },
+    {
+      "code": 7000,
+      "name": "Contacto auxiliar NA",
+      "designator": "-K",
+      "category": "mando",
+      "category_label": "Mando",
+      "pins": [
+        "13",
+        "14"
+      ],
+      "file": "symbols/componentes/7000.svg"
+    },
+    {
+      "code": 7001,
+      "name": "Contacto auxiliar NC",
+      "designator": "-K",
+      "category": "mando",
+      "category_label": "Mando",
+      "pins": [
+        "11",
+        "12"
+      ],
+      "file": "symbols/componentes/7001.svg"
+    },
+    {
+      "code": 7002,
+      "name": "Contacto auxiliar NA-NC",
+      "designator": "-K",
+      "category": "mando",
+      "category_label": "Mando",
+      "pins": [
+        "13",
+        "11",
+        "14",
+        "12"
+      ],
+      "file": "symbols/componentes/7002.svg"
+    },
+    {
+      "code": 7003,
+      "name": "Contacto auxiliar conmutado",
+      "designator": "-K",
+      "category": "mando",
+      "category_label": "Mando",
+      "pins": [
+        "11",
+        "12",
+        "14"
+      ],
+      "file": "symbols/componentes/7003.svg"
+    },
+    {
+      "code": 7004,
+      "name": "Contacto temporizador conexión NA",
+      "designator": "-KA",
+      "category": "mando",
+      "category_label": "Mando",
+      "pins": [
+        "13",
+        "14"
+      ],
+      "file": "symbols/componentes/7004.svg"
+    },
+    {
+      "code": 7005,
+      "name": "Contacto temporizador conexión NC",
+      "designator": "-KA",
+      "category": "mando",
+      "category_label": "Mando",
+      "pins": [
+        "11",
+        "12"
+      ],
+      "file": "symbols/componentes/7005.svg"
+    },
+    {
+      "code": 7006,
+      "name": "Contacto temporizador conexión NA-NC",
+      "designator": "-KA",
+      "category": "mando",
+      "category_label": "Mando",
+      "pins": [
+        "13",
+        "11",
+        "14",
+        "12"
+      ],
+      "file": "symbols/componentes/7006.svg"
+    },
+    {
+      "code": 7007,
+      "name": "Contacto temporizador conexión conmutado",
+      "designator": "-KA",
+      "category": "mando",
+      "category_label": "Mando",
+      "pins": [
+        "11",
+        "12",
+        "14"
+      ],
+      "file": "symbols/componentes/7007.svg"
+    },
+    {
+      "code": 7008,
+      "name": "Contacto temporizador desconexión NA",
+      "designator": "-KA",
+      "category": "mando",
+      "category_label": "Mando",
+      "pins": [
+        "13",
+        "14"
+      ],
+      "file": "symbols/componentes/7008.svg"
+    },
+    {
+      "code": 7009,
+      "name": "Contacto temporizador desconexión NC",
+      "designator": "-KA",
+      "category": "mando",
+      "category_label": "Mando",
+      "pins": [
+        "11",
+        "12"
+      ],
+      "file": "symbols/componentes/7009.svg"
+    },
+    {
+      "code": 7010,
+      "name": "Contacto temporizador desconexión NA-NC",
+      "designator": "-KA",
+      "category": "mando",
+      "category_label": "Mando",
+      "pins": [
+        "13",
+        "11",
+        "14",
+        "12"
+      ],
+      "file": "symbols/componentes/7010.svg"
+    },
+    {
+      "code": 7011,
+      "name": "Contacto temporizador desconexión conmutado",
+      "designator": "-KA",
+      "category": "mando",
+      "category_label": "Mando",
+      "pins": [
+        "11",
+        "12",
+        "14"
+      ],
+      "file": "symbols/componentes/7011.svg"
+    },
+    {
+      "code": 7012,
+      "name": "Contacto temporizador conexión desconexión NA",
+      "designator": "-KA",
+      "category": "mando",
+      "category_label": "Mando",
+      "pins": [
+        "13",
+        "14"
+      ],
+      "file": "symbols/componentes/7012.svg"
+    },
+    {
+      "code": 7013,
+      "name": "Contacto temporizador conexión desconexión NC",
+      "designator": "-KA",
+      "category": "mando",
+      "category_label": "Mando",
+      "pins": [
+        "11",
+        "12"
+      ],
+      "file": "symbols/componentes/7013.svg"
+    },
+    {
+      "code": 7014,
+      "name": "Contacto temporizador conexión desconexión NA-NC",
+      "designator": "-KA",
+      "category": "mando",
+      "category_label": "Mando",
+      "pins": [
+        "13",
+        "11",
+        "14",
+        "12"
+      ],
+      "file": "symbols/componentes/7014.svg"
+    },
+    {
+      "code": 7015,
+      "name": "Contacto temporizador conexión desconexión conmutado",
+      "designator": "-KA",
+      "category": "mando",
+      "category_label": "Mando",
+      "pins": [
+        "11",
+        "12",
+        "14"
+      ],
+      "file": "symbols/componentes/7015.svg"
+    },
+    {
+      "code": 7016,
+      "name": "Rele",
+      "designator": "-KA",
+      "category": "mando",
+      "category_label": "Mando",
+      "pins": [
+        "A1",
+        "A2"
+      ],
+      "file": "symbols/componentes/7016.svg"
+    },
+    {
+      "code": 7018,
+      "name": "Contactor",
+      "designator": "-KM",
+      "category": "mando",
+      "category_label": "Mando",
+      "pins": [
+        "A1",
+        "A2"
+      ],
+      "file": "symbols/componentes/7018.svg"
+    },
+    {
+      "code": 7019,
+      "name": "Contactos auxiliares",
+      "designator": "-KM",
+      "category": "mando",
+      "category_label": "Mando",
+      "pins": [
+        "13",
+        "11",
+        "14",
+        "12"
+      ],
+      "file": "symbols/componentes/7019.svg"
+    },
+    {
+      "code": 7020,
+      "name": "Contactos ON Delay",
+      "designator": "-KM",
+      "category": "mando",
+      "category_label": "Mando",
+      "pins": [
+        "13",
+        "14"
+      ],
+      "file": "symbols/componentes/7020.svg"
+    },
+    {
+      "code": 7021,
+      "name": "Contactos OFF Delay",
+      "designator": "-KM",
+      "category": "mando",
+      "category_label": "Mando",
+      "pins": [
+        "13",
+        "14"
+      ],
+      "file": "symbols/componentes/7021.svg"
+    },
+    {
+      "code": 7500,
+      "name": "Det. inductivo NA 2 hilos",
+      "designator": "",
+      "category": "sensor",
+      "category_label": "Sensores",
+      "pins": [
+        "1",
+        "2"
+      ],
+      "file": "symbols/componentes/7500.svg"
+    },
+    {
+      "code": 7501,
+      "name": "Det. inductivo NA 3 hilos PNP",
+      "designator": "",
+      "category": "sensor",
+      "category_label": "Sensores",
+      "pins": [
+        "+",
+        "O",
+        "-"
+      ],
+      "file": "symbols/componentes/7501.svg"
+    },
+    {
+      "code": 7502,
+      "name": "Det. inductivo NA 3 hilos NPN",
+      "designator": "",
+      "category": "sensor",
+      "category_label": "Sensores",
+      "pins": [
+        "+",
+        "O",
+        "-"
+      ],
+      "file": "symbols/componentes/7502.svg"
+    },
+    {
+      "code": 7503,
+      "name": "Det. inductivo NA 2 hilos",
+      "designator": "",
+      "category": "sensor",
+      "category_label": "Sensores",
+      "pins": [
+        "1",
+        "2"
+      ],
+      "file": "symbols/componentes/7503.svg"
+    },
+    {
+      "code": 7504,
+      "name": "Det. inductivo NA 3 hilos PNP",
+      "designator": "",
+      "category": "sensor",
+      "category_label": "Sensores",
+      "pins": [
+        "+",
+        "O",
+        "-"
+      ],
+      "file": "symbols/componentes/7504.svg"
+    },
+    {
+      "code": 7505,
+      "name": "Det. inductivo NA 3 hilos NPN",
+      "designator": "",
+      "category": "sensor",
+      "category_label": "Sensores",
+      "pins": [
+        "+",
+        "O",
+        "-"
+      ],
+      "file": "symbols/componentes/7505.svg"
+    },
+    {
+      "code": 7506,
+      "name": "Det. capacitivo NA 2 hilos",
+      "designator": "",
+      "category": "sensor",
+      "category_label": "Sensores",
+      "pins": [
+        "1",
+        "2"
+      ],
+      "file": "symbols/componentes/7506.svg"
+    },
+    {
+      "code": 7507,
+      "name": "Det. capacitivo NA 3 hilos PNP",
+      "designator": "",
+      "category": "sensor",
+      "category_label": "Sensores",
+      "pins": [
+        "+",
+        "O",
+        "-"
+      ],
+      "file": "symbols/componentes/7507.svg"
+    },
+    {
+      "code": 7508,
+      "name": "Det. capacitivo NA 3 hilos NPN",
+      "designator": "",
+      "category": "sensor",
+      "category_label": "Sensores",
+      "pins": [
+        "+",
+        "O",
+        "-"
+      ],
+      "file": "symbols/componentes/7508.svg"
+    },
+    {
+      "code": 7509,
+      "name": "Det. capacitivo NA 2 hilos",
+      "designator": "",
+      "category": "sensor",
+      "category_label": "Sensores",
+      "pins": [
+        "1",
+        "2"
+      ],
+      "file": "symbols/componentes/7509.svg"
+    },
+    {
+      "code": 7510,
+      "name": "Det. capacitivo NA 3 hilos PNP",
+      "designator": "",
+      "category": "sensor",
+      "category_label": "Sensores",
+      "pins": [
+        "+",
+        "O",
+        "-"
+      ],
+      "file": "symbols/componentes/7510.svg"
+    },
+    {
+      "code": 7511,
+      "name": "Det. capacitivo NA 3 hilos NPN",
+      "designator": "",
+      "category": "sensor",
+      "category_label": "Sensores",
+      "pins": [
+        "+",
+        "O",
+        "-"
+      ],
+      "file": "symbols/componentes/7511.svg"
+    },
+    {
+      "code": 7512,
+      "name": "Det. magnético NA 2 hilos",
+      "designator": "",
+      "category": "sensor",
+      "category_label": "Sensores",
+      "pins": [
+        "1",
+        "2"
+      ],
+      "file": "symbols/componentes/7512.svg"
+    },
+    {
+      "code": 7513,
+      "name": "Det. magnético NA 3 hilos PNP",
+      "designator": "",
+      "category": "sensor",
+      "category_label": "Sensores",
+      "pins": [
+        "+",
+        "O",
+        "-"
+      ],
+      "file": "symbols/componentes/7513.svg"
+    },
+    {
+      "code": 7514,
+      "name": "Det. magnético NA 3 hilos NPN",
+      "designator": "",
+      "category": "sensor",
+      "category_label": "Sensores",
+      "pins": [
+        "+",
+        "O",
+        "-"
+      ],
+      "file": "symbols/componentes/7514.svg"
+    },
+    {
+      "code": 7515,
+      "name": "Det. magnético NA 2 hilos",
+      "designator": "",
+      "category": "sensor",
+      "category_label": "Sensores",
+      "pins": [
+        "1",
+        "2"
+      ],
+      "file": "symbols/componentes/7515.svg"
+    },
+    {
+      "code": 7516,
+      "name": "Det. magnético NA 3 hilos PNP",
+      "designator": "",
+      "category": "sensor",
+      "category_label": "Sensores",
+      "pins": [
+        "+",
+        "O",
+        "-"
+      ],
+      "file": "symbols/componentes/7516.svg"
+    },
+    {
+      "code": 7517,
+      "name": "Det. magnético NA 3 hilos NPN",
+      "designator": "",
+      "category": "sensor",
+      "category_label": "Sensores",
+      "pins": [
+        "+",
+        "O",
+        "-"
+      ],
+      "file": "symbols/componentes/7517.svg"
+    },
+    {
+      "code": 7520,
+      "name": "Det. inductivo NC 2 hilos",
+      "designator": "",
+      "category": "sensor",
+      "category_label": "Sensores",
+      "pins": [
+        "1",
+        "2"
+      ],
+      "file": "symbols/componentes/7520.svg"
+    },
+    {
+      "code": 7521,
+      "name": "Det. inductivo NC 3 hilos PNP",
+      "designator": "",
+      "category": "sensor",
+      "category_label": "Sensores",
+      "pins": [
+        "+",
+        "O",
+        "-"
+      ],
+      "file": "symbols/componentes/7521.svg"
+    },
+    {
+      "code": 7522,
+      "name": "Det. inductivo NC 3 hilos NPN",
+      "designator": "",
+      "category": "sensor",
+      "category_label": "Sensores",
+      "pins": [
+        "+",
+        "O",
+        "-"
+      ],
+      "file": "symbols/componentes/7522.svg"
+    },
+    {
+      "code": 7523,
+      "name": "Det. inductivo NC 2 hilos",
+      "designator": "",
+      "category": "sensor",
+      "category_label": "Sensores",
+      "pins": [
+        "1",
+        "2"
+      ],
+      "file": "symbols/componentes/7523.svg"
+    },
+    {
+      "code": 7524,
+      "name": "Det. inductivo NC 3 hilos PNP",
+      "designator": "",
+      "category": "sensor",
+      "category_label": "Sensores",
+      "pins": [
+        "+",
+        "O",
+        "-"
+      ],
+      "file": "symbols/componentes/7524.svg"
+    },
+    {
+      "code": 7525,
+      "name": "Det. inductivo NC 3 hilos NPN",
+      "designator": "",
+      "category": "sensor",
+      "category_label": "Sensores",
+      "pins": [
+        "+",
+        "O",
+        "-"
+      ],
+      "file": "symbols/componentes/7525.svg"
+    },
+    {
+      "code": 7526,
+      "name": "Det. capacitivo NC 2 hilos",
+      "designator": "-B",
+      "category": "sensor",
+      "category_label": "Sensores",
+      "pins": [
+        "1",
+        "2"
+      ],
+      "file": "symbols/componentes/7526.svg"
+    },
+    {
+      "code": 7527,
+      "name": "Det. capacitivo NC 3 hilos PNP",
+      "designator": "",
+      "category": "sensor",
+      "category_label": "Sensores",
+      "pins": [
+        "+",
+        "O",
+        "-"
+      ],
+      "file": "symbols/componentes/7527.svg"
+    },
+    {
+      "code": 7528,
+      "name": "Det. capacitivo NC 3 hilos NPN",
+      "designator": "",
+      "category": "sensor",
+      "category_label": "Sensores",
+      "pins": [
+        "+",
+        "O",
+        "-"
+      ],
+      "file": "symbols/componentes/7528.svg"
+    },
+    {
+      "code": 7529,
+      "name": "Det. capacitivo NC 2 hilos",
+      "designator": "",
+      "category": "sensor",
+      "category_label": "Sensores",
+      "pins": [
+        "1",
+        "2"
+      ],
+      "file": "symbols/componentes/7529.svg"
+    },
+    {
+      "code": 7530,
+      "name": "Det. capacitivo NC 3 hilos PNP",
+      "designator": "",
+      "category": "sensor",
+      "category_label": "Sensores",
+      "pins": [
+        "+",
+        "O",
+        "-"
+      ],
+      "file": "symbols/componentes/7530.svg"
+    },
+    {
+      "code": 7531,
+      "name": "Det. capacitivo NC 3 hilos NPN",
+      "designator": "",
+      "category": "sensor",
+      "category_label": "Sensores",
+      "pins": [
+        "+",
+        "O",
+        "-"
+      ],
+      "file": "symbols/componentes/7531.svg"
+    },
+    {
+      "code": 7532,
+      "name": "Det. magnético NC 2 hilos",
+      "designator": "-B",
+      "category": "sensor",
+      "category_label": "Sensores",
+      "pins": [
+        "1",
+        "2"
+      ],
+      "file": "symbols/componentes/7532.svg"
+    },
+    {
+      "code": 7533,
+      "name": "Det. magnético NC 3 hilos PNP",
+      "designator": "",
+      "category": "sensor",
+      "category_label": "Sensores",
+      "pins": [
+        "+",
+        "O",
+        "-"
+      ],
+      "file": "symbols/componentes/7533.svg"
+    },
+    {
+      "code": 7534,
+      "name": "Det. magnético NC 3 hilos NPN",
+      "designator": "",
+      "category": "sensor",
+      "category_label": "Sensores",
+      "pins": [
+        "+",
+        "O",
+        "-"
+      ],
+      "file": "symbols/componentes/7534.svg"
+    },
+    {
+      "code": 7535,
+      "name": "Det. magnético NC 2 hilos",
+      "designator": "",
+      "category": "sensor",
+      "category_label": "Sensores",
+      "pins": [
+        "1",
+        "2"
+      ],
+      "file": "symbols/componentes/7535.svg"
+    },
+    {
+      "code": 7536,
+      "name": "Det. magnético NC 3 hilos PNP",
+      "designator": "",
+      "category": "sensor",
+      "category_label": "Sensores",
+      "pins": [
+        "+",
+        "O",
+        "-"
+      ],
+      "file": "symbols/componentes/7536.svg"
+    },
+    {
+      "code": 7537,
+      "name": "Det. magnético NC 3 hilos NPN",
+      "designator": "",
+      "category": "sensor",
+      "category_label": "Sensores",
+      "pins": [
+        "+",
+        "O",
+        "-"
+      ],
+      "file": "symbols/componentes/7537.svg"
+    },
+    {
+      "code": 7550,
+      "name": "Barrera fotoeléctrica reflex",
+      "designator": "-B",
+      "category": "sensor",
+      "category_label": "Sensores",
+      "pins": [
+        "1",
+        "2"
+      ],
+      "file": "symbols/componentes/7550.svg"
+    },
+    {
+      "code": 7551,
+      "name": "Barrera foto. emisor",
+      "designator": "-B",
+      "category": "sensor",
+      "category_label": "Sensores",
+      "pins": [
+        "1",
+        "2"
+      ],
+      "file": "symbols/componentes/7551.svg"
+    },
+    {
+      "code": 7552,
+      "name": "Barrera foto. emisor",
+      "designator": "",
+      "category": "sensor",
+      "category_label": "Sensores",
+      "pins": [
+        "1",
+        "2"
+      ],
+      "file": "symbols/componentes/7552.svg"
+    },
+    {
+      "code": 7553,
+      "name": "Barrera foto. receptor NA 2 hilos",
+      "designator": "-B",
+      "category": "sensor",
+      "category_label": "Sensores",
+      "pins": [
+        "1",
+        "2"
+      ],
+      "file": "symbols/componentes/7553.svg"
+    },
+    {
+      "code": 7554,
+      "name": "Barrera foto. receptor NA 3 hilos PNP",
+      "designator": "",
+      "category": "sensor",
+      "category_label": "Sensores",
+      "pins": [
+        "+",
+        "O",
+        "-"
+      ],
+      "file": "symbols/componentes/7554.svg"
+    },
+    {
+      "code": 7555,
+      "name": "Barrera foto. receptor NA 3 hilos NPN",
+      "designator": "",
+      "category": "sensor",
+      "category_label": "Sensores",
+      "pins": [
+        "+",
+        "O",
+        "-"
+      ],
+      "file": "symbols/componentes/7555.svg"
+    },
+    {
+      "code": 7556,
+      "name": "Barrera foto. receptor NA 2 hilos",
+      "designator": "",
+      "category": "sensor",
+      "category_label": "Sensores",
+      "pins": [
+        "1",
+        "2"
+      ],
+      "file": "symbols/componentes/7556.svg"
+    },
+    {
+      "code": 7557,
+      "name": "Barrera foto. receptor NA 3 hilos PNP",
+      "designator": "",
+      "category": "sensor",
+      "category_label": "Sensores",
+      "pins": [
+        "+",
+        "O",
+        "-"
+      ],
+      "file": "symbols/componentes/7557.svg"
+    },
+    {
+      "code": 7558,
+      "name": "Barrera foto. receptor NA 3 hilos NPN",
+      "designator": "",
+      "category": "sensor",
+      "category_label": "Sensores",
+      "pins": [
+        "+",
+        "O",
+        "-"
+      ],
+      "file": "symbols/componentes/7558.svg"
+    },
+    {
+      "code": 7559,
+      "name": "Barrera foto. receptor NC 2 hilos",
+      "designator": "-B",
+      "category": "sensor",
+      "category_label": "Sensores",
+      "pins": [
+        "1",
+        "2"
+      ],
+      "file": "symbols/componentes/7559.svg"
+    },
+    {
+      "code": 7560,
+      "name": "Barrera foto. receptor NC 3 hilos PNP",
+      "designator": "",
+      "category": "sensor",
+      "category_label": "Sensores",
+      "pins": [
+        "+",
+        "O",
+        "-"
+      ],
+      "file": "symbols/componentes/7560.svg"
+    },
+    {
+      "code": 7561,
+      "name": "Barrera foto. receptor NC 3 hilos NPN",
+      "designator": "",
+      "category": "sensor",
+      "category_label": "Sensores",
+      "pins": [
+        "+",
+        "O",
+        "-"
+      ],
+      "file": "symbols/componentes/7561.svg"
+    },
+    {
+      "code": 7562,
+      "name": "Barrera foto. receptor NC 2 hilos",
+      "designator": "",
+      "category": "sensor",
+      "category_label": "Sensores",
+      "pins": [
+        "1",
+        "2"
+      ],
+      "file": "symbols/componentes/7562.svg"
+    },
+    {
+      "code": 7563,
+      "name": "Barrera foto. receptor NC 3 hilos PNP",
+      "designator": "",
+      "category": "sensor",
+      "category_label": "Sensores",
+      "pins": [
+        "+",
+        "O",
+        "-"
+      ],
+      "file": "symbols/componentes/7563.svg"
+    },
+    {
+      "code": 7564,
+      "name": "Barrera foto. receptor NC 3 hilos NPN",
+      "designator": "",
+      "category": "sensor",
+      "category_label": "Sensores",
+      "pins": [
+        "+",
+        "O",
+        "-"
+      ],
+      "file": "symbols/componentes/7564.svg"
+    },
+    {
+      "code": 7570,
+      "name": "Presostato NA 2 hilos",
+      "designator": "-B",
+      "category": "sensor",
+      "category_label": "Sensores",
+      "pins": [
+        "1",
+        "2"
+      ],
+      "file": "symbols/componentes/7570.svg"
+    },
+    {
+      "code": 7571,
+      "name": "Presostato NA 3 hilos PNP",
+      "designator": "",
+      "category": "sensor",
+      "category_label": "Sensores",
+      "pins": [
+        "+",
+        "O",
+        "-"
+      ],
+      "file": "symbols/componentes/7571.svg"
+    },
+    {
+      "code": 7572,
+      "name": "Presostato NA 3 hilos NPN",
+      "designator": "",
+      "category": "sensor",
+      "category_label": "Sensores",
+      "pins": [
+        "+",
+        "O",
+        "-"
+      ],
+      "file": "symbols/componentes/7572.svg"
+    },
+    {
+      "code": 7573,
+      "name": "Presostato NA 2 hilos",
+      "designator": "",
+      "category": "sensor",
+      "category_label": "Sensores",
+      "pins": [
+        "1",
+        "2"
+      ],
+      "file": "symbols/componentes/7573.svg"
+    },
+    {
+      "code": 7574,
+      "name": "Presostato NA 3 hilos PNP",
+      "designator": "",
+      "category": "sensor",
+      "category_label": "Sensores",
+      "pins": [
+        "+",
+        "O",
+        "-"
+      ],
+      "file": "symbols/componentes/7574.svg"
+    },
+    {
+      "code": 7575,
+      "name": "Presostato NA 3 hilos NPN",
+      "designator": "",
+      "category": "sensor",
+      "category_label": "Sensores",
+      "pins": [
+        "+",
+        "O",
+        "-"
+      ],
+      "file": "symbols/componentes/7575.svg"
+    },
+    {
+      "code": 7576,
+      "name": "Vacuostato NA 2 hilos",
+      "designator": "-B",
+      "category": "sensor",
+      "category_label": "Sensores",
+      "pins": [
+        "1",
+        "2"
+      ],
+      "file": "symbols/componentes/7576.svg"
+    },
+    {
+      "code": 7577,
+      "name": "Vacuostato NA 3 hilos PNP",
+      "designator": "",
+      "category": "sensor",
+      "category_label": "Sensores",
+      "pins": [
+        "+",
+        "O",
+        "-"
+      ],
+      "file": "symbols/componentes/7577.svg"
+    },
+    {
+      "code": 7578,
+      "name": "Vacuostato NA 3 hilos NPN",
+      "designator": "",
+      "category": "sensor",
+      "category_label": "Sensores",
+      "pins": [
+        "+",
+        "O",
+        "-"
+      ],
+      "file": "symbols/componentes/7578.svg"
+    },
+    {
+      "code": 7579,
+      "name": "Vacuostato NA 2 hilos",
+      "designator": "",
+      "category": "sensor",
+      "category_label": "Sensores",
+      "pins": [
+        "1",
+        "2"
+      ],
+      "file": "symbols/componentes/7579.svg"
+    },
+    {
+      "code": 7580,
+      "name": "Vacuostato NA 3 hilos PNP",
+      "designator": "",
+      "category": "sensor",
+      "category_label": "Sensores",
+      "pins": [
+        "+",
+        "O",
+        "-"
+      ],
+      "file": "symbols/componentes/7580.svg"
+    },
+    {
+      "code": 7581,
+      "name": "Vacuostato NA 3 hilos NPN",
+      "designator": "",
+      "category": "sensor",
+      "category_label": "Sensores",
+      "pins": [
+        "+",
+        "O",
+        "-"
+      ],
+      "file": "symbols/componentes/7581.svg"
+    },
+    {
+      "code": 7582,
+      "name": "Presostato NC 2 hilos",
+      "designator": "-B",
+      "category": "sensor",
+      "category_label": "Sensores",
+      "pins": [
+        "1",
+        "2"
+      ],
+      "file": "symbols/componentes/7582.svg"
+    },
+    {
+      "code": 7584,
+      "name": "Presostato NC 3 hilos NPN",
+      "designator": "",
+      "category": "sensor",
+      "category_label": "Sensores",
+      "pins": [
+        "+",
+        "O",
+        "-"
+      ],
+      "file": "symbols/componentes/7584.svg"
+    },
+    {
+      "code": 7585,
+      "name": "Presostato NC 2 hilos",
+      "designator": "",
+      "category": "sensor",
+      "category_label": "Sensores",
+      "pins": [
+        "1",
+        "2"
+      ],
+      "file": "symbols/componentes/7585.svg"
+    },
+    {
+      "code": 7586,
+      "name": "Presostato NC 3 hilos PNP",
+      "designator": "",
+      "category": "sensor",
+      "category_label": "Sensores",
+      "pins": [
+        "+",
+        "O",
+        "-"
+      ],
+      "file": "symbols/componentes/7586.svg"
+    },
+    {
+      "code": 7587,
+      "name": "Presostato NC 3 hilos NPN",
+      "designator": "",
+      "category": "sensor",
+      "category_label": "Sensores",
+      "pins": [
+        "+",
+        "O",
+        "-"
+      ],
+      "file": "symbols/componentes/7587.svg"
+    },
+    {
+      "code": 7588,
+      "name": "Vacuostato NC 2 hilos",
+      "designator": "-B",
+      "category": "sensor",
+      "category_label": "Sensores",
+      "pins": [
+        "1",
+        "2"
+      ],
+      "file": "symbols/componentes/7588.svg"
+    },
+    {
+      "code": 7589,
+      "name": "Vacuostato NC 3 hilos PNP",
+      "designator": "",
+      "category": "sensor",
+      "category_label": "Sensores",
+      "pins": [
+        "+",
+        "O",
+        "-"
+      ],
+      "file": "symbols/componentes/7589.svg"
+    },
+    {
+      "code": 7590,
+      "name": "Vacuostato NC 3 hilos NPN",
+      "designator": "",
+      "category": "sensor",
+      "category_label": "Sensores",
+      "pins": [
+        "+",
+        "O",
+        "-"
+      ],
+      "file": "symbols/componentes/7590.svg"
+    },
+    {
+      "code": 7591,
+      "name": "Termostato NA 3 hilos PNP",
+      "designator": "",
+      "category": "sensor",
+      "category_label": "Sensores",
+      "pins": [
+        "+",
+        "O",
+        "-"
+      ],
+      "file": "symbols/componentes/7591.svg"
+    },
+    {
+      "code": 7592,
+      "name": "Vacuostato NC 3 hilos PNP",
+      "designator": "",
+      "category": "sensor",
+      "category_label": "Sensores",
+      "pins": [
+        "+",
+        "O",
+        "-"
+      ],
+      "file": "symbols/componentes/7592.svg"
+    },
+    {
+      "code": 7593,
+      "name": "Vacuostato NC 3 hilos NPN",
+      "designator": "",
+      "category": "sensor",
+      "category_label": "Sensores",
+      "pins": [
+        "+",
+        "O",
+        "-"
+      ],
+      "file": "symbols/componentes/7593.svg"
+    },
+    {
+      "code": 7594,
+      "name": "Termostato NA 3 hilos PNP",
+      "designator": "-B",
+      "category": "sensor",
+      "category_label": "Sensores",
+      "pins": [
+        "+",
+        "O",
+        "-"
+      ],
+      "file": "symbols/componentes/7594.svg"
+    },
+    {
+      "code": 7595,
+      "name": "Termostato NA 3 hilos NPN",
+      "designator": "",
+      "category": "sensor",
+      "category_label": "Sensores",
+      "pins": [
+        "+",
+        "O",
+        "-"
+      ],
+      "file": "symbols/componentes/7595.svg"
+    },
+    {
+      "code": 7600,
+      "name": "Termostato NC 2 hilos",
+      "designator": "-B",
+      "category": "sensor",
+      "category_label": "Sensores",
+      "pins": [
+        "1",
+        "2"
+      ],
+      "file": "symbols/componentes/7600.svg"
+    },
+    {
+      "code": 7601,
+      "name": "Termostato NC 3 hilos PNP",
+      "designator": "",
+      "category": "sensor",
+      "category_label": "Sensores",
+      "pins": [
+        "+",
+        "O",
+        "-"
+      ],
+      "file": "symbols/componentes/7601.svg"
+    },
+    {
+      "code": 7602,
+      "name": "Termostato NC 3 hilos NPN",
+      "designator": "",
+      "category": "sensor",
+      "category_label": "Sensores",
+      "pins": [
+        "+",
+        "O",
+        "-"
+      ],
+      "file": "symbols/componentes/7602.svg"
+    },
+    {
+      "code": 7603,
+      "name": "Termostato NC 2 hilos",
+      "designator": "",
+      "category": "sensor",
+      "category_label": "Sensores",
+      "pins": [
+        "1",
+        "2"
+      ],
+      "file": "symbols/componentes/7603.svg"
+    },
+    {
+      "code": 7604,
+      "name": "Termostato NC 3 hilos PNP",
+      "designator": "",
+      "category": "sensor",
+      "category_label": "Sensores",
+      "pins": [
+        "+",
+        "O",
+        "-"
+      ],
+      "file": "symbols/componentes/7604.svg"
+    },
+    {
+      "code": 7605,
+      "name": "Termostato NC 3 hilos NPN",
+      "designator": "",
+      "category": "sensor",
+      "category_label": "Sensores",
+      "pins": [
+        "+",
+        "O",
+        "-"
+      ],
+      "file": "symbols/componentes/7605.svg"
+    },
+    {
+      "code": 7883,
+      "name": "Presostato NC 3 hilos PNP",
+      "designator": "",
+      "category": "sensor",
+      "category_label": "Sensores",
+      "pins": [
+        "+",
+        "O",
+        "-"
+      ],
+      "file": "symbols/componentes/7883.svg"
+    },
+    {
+      "code": 8000,
+      "name": "Contacto pulsador NA",
+      "designator": "-S",
+      "category": "mando",
+      "category_label": "Mando",
+      "pins": [
+        "13",
+        "14"
+      ],
+      "file": "symbols/componentes/8000.svg"
+    },
+    {
+      "code": 8001,
+      "name": "Contacto pulsador NC",
+      "designator": "-S",
+      "category": "mando",
+      "category_label": "Mando",
+      "pins": [
+        "11",
+        "12"
+      ],
+      "file": "symbols/componentes/8001.svg"
+    },
+    {
+      "code": 8002,
+      "name": "Contacto pulsador NA-NC",
+      "designator": "-S",
+      "category": "senalizacion",
+      "category_label": "Señalización y pulsadores",
+      "pins": [
+        "13",
+        "11",
+        "14",
+        "12"
+      ],
+      "file": "symbols/componentes/8002.svg"
+    },
+    {
+      "code": 8003,
+      "name": "Contacto pulsador conmutado",
+      "designator": "-S",
+      "category": "senalizacion",
+      "category_label": "Señalización y pulsadores",
+      "pins": [
+        "11",
+        "12",
+        "14"
+      ],
+      "file": "symbols/componentes/8003.svg"
+    },
+    {
+      "code": 8004,
+      "name": "Contacto pulsador seta NA",
+      "designator": "-S",
+      "category": "senalizacion",
+      "category_label": "Señalización y pulsadores",
+      "pins": [
+        "13",
+        "14"
+      ],
+      "file": "symbols/componentes/8004.svg"
+    },
+    {
+      "code": 8005,
+      "name": "Contacto pulsador seta NC",
+      "designator": "-S",
+      "category": "senalizacion",
+      "category_label": "Señalización y pulsadores",
+      "pins": [
+        "11",
+        "12"
+      ],
+      "file": "symbols/componentes/8005.svg"
+    },
+    {
+      "code": 8006,
+      "name": "Contacto pulsador seta NA-NC",
+      "designator": "-S",
+      "category": "senalizacion",
+      "category_label": "Señalización y pulsadores",
+      "pins": [
+        "13",
+        "11",
+        "14",
+        "12"
+      ],
+      "file": "symbols/componentes/8006.svg"
+    },
+    {
+      "code": 8007,
+      "name": "Contacto pulsador seta conmutado",
+      "designator": "-S",
+      "category": "senalizacion",
+      "category_label": "Señalización y pulsadores",
+      "pins": [
+        "11",
+        "12",
+        "14"
+      ],
+      "file": "symbols/componentes/8007.svg"
+    },
+    {
+      "code": 8008,
+      "name": "Contacto interruptor NA",
+      "designator": "-S",
+      "category": "senalizacion",
+      "category_label": "Señalización y pulsadores",
+      "pins": [
+        "13",
+        "14"
+      ],
+      "file": "symbols/componentes/8008.svg"
+    },
+    {
+      "code": 8009,
+      "name": "Contacto interruptor NC",
+      "designator": "-S",
+      "category": "senalizacion",
+      "category_label": "Señalización y pulsadores",
+      "pins": [
+        "11",
+        "12"
+      ],
+      "file": "symbols/componentes/8009.svg"
+    },
+    {
+      "code": 8010,
+      "name": "Contacto interruptor NA-NC",
+      "designator": "-S",
+      "category": "senalizacion",
+      "category_label": "Señalización y pulsadores",
+      "pins": [
+        "13",
+        "11",
+        "14",
+        "12"
+      ],
+      "file": "symbols/componentes/8010.svg"
+    },
+    {
+      "code": 8011,
+      "name": "Contacto interruptor conmutado",
+      "designator": "-S",
+      "category": "senalizacion",
+      "category_label": "Señalización y pulsadores",
+      "pins": [
+        "11",
+        "12",
+        "14"
+      ],
+      "file": "symbols/componentes/8011.svg"
+    },
+    {
+      "code": 8012,
+      "name": "Contacto final de carrera NA",
+      "designator": "-S",
+      "category": "mando",
+      "category_label": "Mando",
+      "pins": [
+        "13",
+        "14"
+      ],
+      "file": "symbols/componentes/8012.svg"
+    },
+    {
+      "code": 8013,
+      "name": "Contacto final de carrera NC",
+      "designator": "-S",
+      "category": "mando",
+      "category_label": "Mando",
+      "pins": [
+        "11",
+        "12"
+      ],
+      "file": "symbols/componentes/8013.svg"
+    },
+    {
+      "code": 8014,
+      "name": "Contacto final de carrera NA-NC",
+      "designator": "-S",
+      "category": "senalizacion",
+      "category_label": "Señalización y pulsadores",
+      "pins": [
+        "13",
+        "11",
+        "14",
+        "12"
+      ],
+      "file": "symbols/componentes/8014.svg"
+    },
+    {
+      "code": 8015,
+      "name": "Contacto final de carrera conmutado",
+      "designator": "-S",
+      "category": "senalizacion",
+      "category_label": "Señalización y pulsadores",
+      "pins": [
+        "11",
+        "12",
+        "14"
+      ],
+      "file": "symbols/componentes/8015.svg"
+    },
+    {
+      "code": 8016,
+      "name": "Lámpara de señalización",
+      "designator": "",
+      "category": "mando",
+      "category_label": "Mando",
+      "pins": [
+        "97",
+        "98"
+      ],
+      "file": "symbols/componentes/8016.svg"
+    },
+    {
+      "code": 8017,
+      "name": "Contacto del térmico",
+      "designator": "",
+      "category": "mando",
+      "category_label": "Mando",
+      "pins": [
+        "95",
+        "96"
+      ],
+      "file": "symbols/componentes/8017.svg"
+    },
+    {
+      "code": 8018,
+      "name": "Conmutador de dos posiciones",
+      "designator": "",
+      "category": "mando",
+      "category_label": "Mando",
+      "pins": [
+        "95",
+        "97",
+        "96",
+        "98"
+      ],
+      "file": "symbols/componentes/8018.svg"
+    },
+    {
+      "code": 8100,
+      "name": "Pulsador",
+      "designator": "-S",
+      "category": "senalizacion",
+      "category_label": "Señalización y pulsadores",
+      "pins": [
+        "13",
+        "14"
+      ],
+      "file": "symbols/componentes/8100.svg"
+    },
+    {
+      "code": 8101,
+      "name": "Piloto",
+      "designator": "-H",
+      "category": "senalizacion",
+      "category_label": "Señalización y pulsadores",
+      "pins": [
+        "X1",
+        "X2"
+      ],
+      "file": "symbols/componentes/8101.svg"
+    },
+    {
+      "code": 8102,
+      "name": "Botonera",
+      "designator": "-H",
+      "category": "senalizacion",
+      "category_label": "Señalización y pulsadores",
+      "pins": [
+        "X1",
+        "X2"
+      ],
+      "file": "symbols/componentes/8102.svg"
+    },
+    {
+      "code": 8103,
+      "name": "LED",
+      "designator": "-H",
+      "category": "senalizacion",
+      "category_label": "Señalización y pulsadores",
+      "pins": [
+        "X1",
+        "X2"
+      ],
+      "file": "symbols/componentes/8103.svg"
+    },
+    {
+      "code": 9000,
+      "name": "Bobina monoestable",
+      "designator": "-EV",
+      "category": "mando",
+      "category_label": "Mando",
+      "pins": [
+        "A1",
+        "A2"
+      ],
+      "file": "symbols/componentes/9000.svg"
+    },
+    {
+      "code": 9001,
+      "name": "Bobina biestable",
+      "designator": "-EV",
+      "category": "mando",
+      "category_label": "Mando",
+      "pins": [
+        "A1",
+        "A2"
+      ],
+      "file": "symbols/componentes/9001.svg"
+    },
+    {
+      "code": 9002,
+      "name": "Telerruptor",
+      "designator": "-EV",
+      "category": "mando",
+      "category_label": "Mando",
+      "pins": [
+        "A1",
+        "A2",
+        "1",
+        "2"
+      ],
+      "file": "symbols/componentes/9002.svg"
+    },
+    {
+      "code": 9003,
+      "name": "Electroválvula",
+      "designator": "-EV",
+      "category": "mando",
+      "category_label": "Mando",
+      "pins": [
+        "A1",
+        "A2"
+      ],
+      "file": "symbols/componentes/9003.svg"
+    },
+    {
+      "code": 9004,
+      "name": "Temporizador a la conexión",
+      "designator": "-K",
+      "category": "mando",
+      "category_label": "Mando",
+      "pins": [
+        "A1",
+        "A2"
+      ],
+      "file": "symbols/componentes/9004.svg"
+    },
+    {
+      "code": 9005,
+      "name": "Temporizador a la desconexión",
+      "designator": "",
+      "category": "mando",
+      "category_label": "Mando",
+      "pins": [
+        "A1",
+        "A2"
+      ],
+      "file": "symbols/componentes/9005.svg"
+    },
+    {
+      "code": 9006,
+      "name": "Temporizador a la conexión desconexión",
+      "designator": "",
+      "category": "mando",
+      "category_label": "Mando",
+      "pins": [
+        "A1",
+        "A2"
+      ],
+      "file": "symbols/componentes/9006.svg"
+    },
+    {
+      "code": 9007,
+      "name": "Temporizador intermitente",
+      "designator": "-K",
+      "category": "mando",
+      "category_label": "Mando",
+      "pins": [
+        "A1",
+        "A2"
+      ],
+      "file": "symbols/componentes/9007.svg"
+    },
+    {
+      "code": 9008,
+      "name": "Señalización óptica",
+      "designator": "-H",
+      "category": "senalizacion",
+      "category_label": "Señalización y pulsadores",
+      "pins": [
+        "97",
+        "98"
+      ],
+      "file": "symbols/componentes/9008.svg"
+    },
+    {
+      "code": 9009,
+      "name": "Señalización óptica intermitente",
+      "designator": "",
+      "category": "senalizacion",
+      "category_label": "Señalización y pulsadores",
+      "pins": [
+        "X1",
+        "X2"
+      ],
+      "file": "symbols/componentes/9009.svg"
+    },
+    {
+      "code": 9010,
+      "name": "Timbre",
+      "designator": "",
+      "category": "senalizacion",
+      "category_label": "Señalización y pulsadores",
+      "pins": [
+        "X1",
+        "X2"
+      ],
+      "file": "symbols/componentes/9010.svg"
+    },
+    {
+      "code": 9011,
+      "name": "Zumbador",
+      "designator": "",
+      "category": "senalizacion",
+      "category_label": "Señalización y pulsadores",
+      "pins": [
+        "X1",
+        "X2"
+      ],
+      "file": "symbols/componentes/9011.svg"
+    },
+    {
+      "code": 9012,
+      "name": "Sirena",
+      "designator": "",
+      "category": "senalizacion",
+      "category_label": "Señalización y pulsadores",
+      "pins": [
+        "X1",
+        "X2"
+      ],
+      "file": "symbols/componentes/9012.svg"
+    },
+    {
+      "code": 9013,
+      "name": "Bocina",
+      "designator": "-H",
+      "category": "senalizacion",
+      "category_label": "Señalización y pulsadores",
+      "pins": [
+        "X1",
+        "X2"
+      ],
+      "file": "symbols/componentes/9013.svg"
+    },
+    {
+      "code": 10050,
+      "name": "Contacto NA",
+      "designator": "-U",
+      "category": "mando",
+      "category_label": "Mando",
+      "pins": [
+        "13",
+        "14"
+      ],
+      "file": "symbols/componentes/10050.svg"
+    },
+    {
+      "code": 10051,
+      "name": "Contacto NC",
+      "designator": "",
+      "category": "mando",
+      "category_label": "Mando",
+      "pins": [
+        "11",
+        "12"
+      ],
+      "file": "symbols/componentes/10051.svg"
+    },
+    {
+      "code": 10500,
+      "name": "Actuador de simple efecto",
+      "designator": "-A",
+      "category": "mando",
+      "category_label": "Mando",
+      "pins": [
+        "A"
+      ],
+      "file": "symbols/componentes/10500.svg"
+    },
+    {
+      "code": 10502,
+      "name": "Actuador sin vástago",
+      "designator": "-A",
+      "category": "mando",
+      "category_label": "Mando",
+      "pins": [
+        "A"
+      ],
+      "file": "symbols/componentes/10502.svg"
+    },
+    {
+      "code": 10503,
+      "name": "Actuador sin vástago magnético",
+      "designator": "-A",
+      "category": "mando",
+      "category_label": "Mando",
+      "pins": [
+        "A"
+      ],
+      "file": "symbols/componentes/10503.svg"
+    },
+    {
+      "code": 10504,
+      "name": "Actuador de doble efecto",
+      "designator": "-A",
+      "category": "mando",
+      "category_label": "Mando",
+      "pins": [
+        "A",
+        "B"
+      ],
+      "file": "symbols/componentes/10504.svg"
+    },
+    {
+      "code": 10505,
+      "name": "Pinza neumática simple efecto",
+      "designator": "-A",
+      "category": "mando",
+      "category_label": "Mando",
+      "pins": [
+        "A"
+      ],
+      "file": "symbols/componentes/10505.svg"
+    },
+    {
+      "code": 10506,
+      "name": "Pinza neumática",
+      "designator": "-A",
+      "category": "mando",
+      "category_label": "Mando",
+      "pins": [
+        "A",
+        "B"
+      ],
+      "file": "symbols/componentes/10506.svg"
+    },
+    {
+      "code": 10507,
+      "name": "Ventosa",
+      "designator": "-V",
+      "category": "mando",
+      "category_label": "Mando",
+      "pins": [
+        "A"
+      ],
+      "file": "symbols/componentes/10507.svg"
+    },
+    {
+      "code": 10508,
+      "name": "Motor neumático",
+      "designator": "-M",
+      "category": "mando",
+      "category_label": "Mando",
+      "pins": [
+        "A"
+      ],
+      "file": "symbols/componentes/10508.svg"
+    },
+    {
+      "code": 10509,
+      "name": "Motor neumático reversible",
+      "designator": "-M",
+      "category": "mando",
+      "category_label": "Mando",
+      "pins": [
+        "A",
+        "B"
+      ],
+      "file": "symbols/componentes/10509.svg"
+    },
+    {
+      "code": 10550,
+      "name": "Actuador lineal eléctrico",
+      "designator": "-M",
+      "category": "mando",
+      "category_label": "Mando",
+      "pins": [
+        "A"
+      ],
+      "file": "symbols/componentes/10550.svg"
+    }
+  ]
+}

@@ -31,23 +31,32 @@ electro-svgs/
 ├── LICENSE
 ├── index.html         # catálogo visual: tabla con todos los SVG
 ├── scripts/
-│   └── generate-index.py  # regenera index.html desde los SVG
+│   ├── generate-index.py    # regenera index.html desde catalog.json
+│   └── generate-catalog.py  # regenera catalog.json desde la app
 ├── symbols/
 │   └── componentes/   # 227 símbolos CADe_SIMU con nombre numérico
 ├── icons/             # iconos para interfaces y paneles (vacío)
 ├── illustrations/     # diagramas para documentación (vacío)
-└── catalog.json       # inventario: id, nombre, categoría, ruta y tags (pendiente)
+└── catalog.json       # inventario: 227 entradas con nombre, categoría y ruta
 ```
 
-Abrí [`index.html`](index.html) para ver la tabla con el nombre, el código y una vista previa de cada símbolo. Incluye un buscador por nombre, código o archivo; funciona sin dependencias ni servidor. Al hacer clic en una fila (o pulsar Enter con el foco en ella) se abre un diálogo con el SVG renderizado a tamaño grande.
+Abrí [`index.html`](index.html) para ver la tabla con el nombre, el código y una vista previa de cada símbolo. Incluye un buscador por nombre, código, categoría o archivo; funciona sin dependencias ni servidor. Al hacer clic en una fila (o pulsar Enter con el foco en ella) se abre un diálogo con el SVG renderizado a tamaño grande.
 
-Después de agregar o quitar SVG, regenerá la tabla con:
+## Catálogo
+
+[`catalog.json`](catalog.json) es el inventario: una entrada por SVG con `code`, `name`, `designator`, `category`, `category_label`, `pins` y `file`. Los datos salen de `REA-ing-inversa/docs/componentes.md`, documento generado por la app desde su propio `catalog.ts` y `families.ts`: códigos, nombres, designadores y bornes reales, y las categorías de la paleta (`motor`, `potencia`, `proteccion`, `mando`, `alimentacion`, `senalizacion`, `sensor`, `linea`, `carga`, `borne`, `otro`).
+
+La tabla HTML se genera desde ese inventario, así que no hay dos listas que se contradigan. Si aparece un SVG sin entrada, se muestra igual usando su `<title>`.
+
+Regeneración:
 
 ```sh
+# Actualizar el inventario desde la documentación de la app
+python3 scripts/generate-catalog.py <ruta-a>/REA-ing-inversa/docs/componentes.md
+
+# Reconstruir index.html desde catalog.json
 python3 scripts/generate-index.py
 ```
-
-Los archivos se agrupan por categoría dentro de cada carpeta. Si un símbolo procede de una librería externa (por ejemplo, los códigos numéricos de CADe_SIMU), se conserva su identificador original como nombre de archivo (`1000.svg`, `1050.svg`, …) y se documenta su equivalente legible en `catalog.json`.
 
 ## Convenciones de los SVG
 
@@ -74,7 +83,7 @@ Ejemplo mínimo:
 Como imagen:
 
 ```html
-<img src="symbols/contactores/na.svg" alt="Contacto normalmente abierto" width="32" />
+<img src="symbols/componentes/2000.svg" alt="Contactor II" width="32" />
 ```
 
 En CSS, usando `currentColor`:
@@ -89,20 +98,21 @@ En CSS, usando `currentColor`:
 En React (Vite), importando el SVG como componente:
 
 ```tsx
-import ContactoNA from './symbols/contactores/na.svg?react';
+import Contactor from './symbols/componentes/2000.svg?react';
 
-<ContactoNA aria-label="Contacto normalmente abierto" />;
+<Contactor aria-label="Contactor II" />;
 ```
 
 Si tu bundler no soporta el sufijo `?react`, importá la URL y usala con `<img>`.
 
 ## Cómo agregar un símbolo
 
-1. Guardá el archivo en la carpeta correspondiente, con nombre en minúsculas y guiones (`contacto-na.svg`).
+1. Guardá el archivo en la carpeta correspondiente. Si viene de CADe_SIMU, conservá el código numérico como nombre (`1000.svg`).
 2. Verificá las convenciones de la sección anterior.
-3. Agregá una entrada a `catalog.json` con `id`, `nombre`, `categoría`, `ruta` y `tags`.
-4. Confirmá que el símbolo sea de autoría propia para que quede cubierto por la licencia MIT del repositorio.
-5. Revisá que el SVG se vea bien sobre fondo claro y oscuro antes de abrir el PR.
+3. Agregá una entrada a `catalog.json` con `code`, `name`, `designator`, `category`, `category_label`, `pins` y `file`.
+4. Regenerá `index.html` con `python3 scripts/generate-index.py`.
+5. Confirmá que el símbolo sea de autoría propia para que quede cubierto por la licencia MIT del repositorio.
+6. Revisá que el SVG se vea bien sobre fondo claro y oscuro antes de abrir el PR.
 
 ## Licencia
 

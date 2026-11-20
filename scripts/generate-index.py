@@ -2,6 +2,7 @@
 """Regenerate index.html from every SVG directory in the repository."""
 from pathlib import Path
 import html
+import json
 import re
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -275,31 +276,69 @@ def title_of(path):
 
 
 def main():
+    catalog = json.loads((ROOT / "catalog.json").read_text(encoding="utf-8"))
     files = []
     for directory in SVG_DIRS:
         files.extend(sorted(directory.glob("*.svg"), key=natural_key))
-    rows = []
+
+    listed = {entry["file"] for entry in catalog["entries"]}
+    items = []
+    for entry in catalog["entries"]:
+        if not (ROOT / entry["file"]).exists():
+            continue
+        items.append(
+            {
+                "code": entry["code"],
+                "name": entry["name"],
+                "file": entry["file"],
+                "search": " ".join(
+                    str(value)
+                    for value in (
+                        entry["name"],
+                        entry["code"],
+                        entry["file"],
+                        entry.get("designator", ""),
+                        entry.get("category_label", ""),
+                    )
+                ),
+            }
+        )
+    # Un SVG nuevo sin entrada en el catálogo se muestra igual, con su <title>.
     for path in files:
-        ident = path.stem
-        title = title_of(path)
         rel = path.relative_to(ROOT).as_posix()
-        search = html.escape(f"{title} {path.name} {ident} {rel}".lower(), quote=True)
+        if rel not in listed:
+            title = title_of(path)
+            items.append(
+                {
+                    "code": path.stem,
+                    "name": title,
+                    "file": rel,
+                    "search": f"{title} {path.stem} {rel}",
+                }
+            )
+
+    items.sort(key=lambda item: natural_key(Path(item["file"])))
+    rows = []
+    for item in items:
+        rel = item["file"]
+        name = item["name"]
+        search = html.escape(item["search"].lower(), quote=True)
         rows.append(
             f'        <tr data-search="{search}">\n'
-            f'          <td class="preview-cell"><span class="preview"><img src="{rel}" alt="Vista previa de {html.escape(title, quote=True)}" loading="lazy" width="36" height="36"></span></td>\n'
-            f'          <td class="name">{html.escape(title)}</td>\n'
-            f'          <td class="id">{ident}</td>\n'
+            f'          <td class="preview-cell"><span class="preview"><img src="{rel}" alt="Vista previa de {html.escape(name, quote=True)}" loading="lazy" width="36" height="36"></span></td>\n'
+            f'          <td class="name">{html.escape(name)}</td>\n'
+            f'          <td class="id">{item["code"]}</td>\n'
             f'          <td class="file"><a href="{rel}" target="_blank" rel="noopener">{html.escape(rel)}</a></td>\n'
             f'        </tr>'
         )
-    first = files[0].relative_to(ROOT).as_posix() if files else ""
+    first = items[0]["file"] if items else ""
     OUTPUT.write_text(
         TEMPLATE.replace("__ROWS__", "\n".join(rows))
-        .replace("__COUNT__", str(len(files)))
+        .replace("__COUNT__", str(len(items)))
         .replace("__FIRST__", first),
         encoding="utf-8",
     )
-    print(f"Generado {OUTPUT.name} con {len(files)} simbolos")
+    print(f"Generado {OUTPUT.name} con {len(items)} simbolos")
 
 
 if __name__ == "__main__":
