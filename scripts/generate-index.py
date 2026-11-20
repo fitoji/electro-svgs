@@ -1,12 +1,23 @@
 #!/usr/bin/env python3
-"""Regenerate index.html from the SVG files in symbols/componentes/."""
+"""Regenerate index.html from every SVG directory in the repository."""
 from pathlib import Path
 import html
 import re
 
 ROOT = Path(__file__).resolve().parent.parent
-SVG_DIR = ROOT / "symbols" / "componentes"
+SVG_DIRS = (
+    ROOT / "symbols" / "componentes",
+    ROOT / "icons",
+    ROOT / "illustrations",
+)
 OUTPUT = ROOT / "index.html"
+
+NAMES = {
+    "icon-bolt.svg": "Icono rayo de la app",
+    "icon-rebt.svg": "Icono REBT de la app",
+    "placeholder-logo.svg": "Logo placeholder de la app",
+    "placeholder.svg": "Imagen placeholder de la app",
+}
 
 TEMPLATE = r'''<!doctype html>
 <html lang="es">
@@ -106,7 +117,7 @@ TEMPLATE = r'''<!doctype html>
   <header class="page-header">
     <div class="wrap">
       <h1>Catálogo de símbolos</h1>
-      <p class="lede">Todos los SVG eléctricos del repositorio, con su nombre, código identificador y vista previa. Los códigos numéricos corresponden a la librería CADe_SIMU.</p>
+      <p class="lede">Todos los SVG del repositorio, con su nombre, identificador y vista previa. Los códigos numéricos de los esquemáticos corresponden a la librería CADe_SIMU.</p>
       <label class="search">
         <span>Buscar por nombre, código o archivo</span>
         <input id="filter" type="search" placeholder="Ej.: motor, contactor, 1000" autocomplete="off" spellcheck="false">
@@ -175,19 +186,21 @@ def title_of(path):
 
 
 def main():
-    files = sorted(SVG_DIR.glob("*.svg"), key=natural_key)
+    files = []
+    for directory in SVG_DIRS:
+        files.extend(sorted(directory.glob("*.svg"), key=natural_key))
     rows = []
     for path in files:
         ident = path.stem
-        title = title_of(path)
-        rel = "symbols/componentes/" + path.name
-        search = html.escape(f"{title} {path.name} {ident}".lower(), quote=True)
+        title = NAMES.get(path.name) or title_of(path)
+        rel = path.relative_to(ROOT).as_posix()
+        search = html.escape(f"{title} {path.name} {ident} {rel}".lower(), quote=True)
         rows.append(
             f'        <tr data-search="{search}">\n'
             f'          <td class="preview-cell"><span class="preview"><img src="{rel}" alt="Vista previa de {html.escape(title, quote=True)}" loading="lazy" width="36" height="36"></span></td>\n'
             f'          <td class="name">{html.escape(title)}</td>\n'
             f'          <td class="id">{ident}</td>\n'
-            f'          <td class="file"><a href="{rel}" target="_blank" rel="noopener">{html.escape(path.name)}</a></td>\n'
+            f'          <td class="file"><a href="{rel}" target="_blank" rel="noopener">{html.escape(rel)}</a></td>\n'
             f'        </tr>'
         )
     OUTPUT.write_text(
