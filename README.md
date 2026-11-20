@@ -39,7 +39,7 @@ electro-svgs/
 └── catalog.json       # inventario: id, nombre, categoría, ruta y tags (pendiente)
 ```
 
-Abrí [`index.html`](index.html) para ver la tabla con el nombre, el código y una vista previa de cada símbolo. Incluye un buscador por nombre, código o archivo; funciona sin dependencias ni servidor.
+Abrí [`index.html`](index.html) para ver la tabla con el nombre, el código y una vista previa de cada símbolo. Incluye un buscador por nombre, código o archivo; funciona sin dependencias ni servidor. Al hacer clic en una fila (o pulsar Enter con el foco en ella) se abre un diálogo con el SVG renderizado a tamaño grande.
 
 Después de agregar o quitar SVG, regenerá la tabla con:
 
